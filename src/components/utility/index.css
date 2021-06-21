@@ -1,0 +1,66 @@
+.greenDot ul, .redDot ul {
+    list-style: none;
+}
+
+.greenDot ul li, .redDot ul li {
+    font-size: 10px;
+    text-align: center;
+}
+
+.greenDot ul li::before {
+    content: "\2022";
+    color: #5dc26a;
+    font-weight: bold;
+    display: inline-block;
+    width: 0.5em;
+    font-size: 30px;
+    vertical-align: middle;
+    margin: -15px 0px;
+}
+
+.redDot ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 0.5em;
+    font-size: 30px;
+    vertical-align: middle;
+    margin: -15px 0px;
+}
+
+.column {
+    border: 1px solid #d9d9d9;
+    margin: 0px 10px;
+    padding: 10px !important;
+}
+
+.column .detail {
+    display: flex;
+}
+
+.column .title h1 {
+    color: #2E75B6;
+    font-size: 18px;
+}
+
+.column .value h1 {
+    color: #FFC000;
+    font-size: 18px;
+}
+
+.column .detail .detailValue {
+    padding: 10px 0px;
+}
+.column .detail .detailValue h1 {
+    font-size: 18px;
+}
+
+.column .detail .detailImage {
+    margin-left: auto;
+}
+
+#smallChart div svg g g:last-child g:last-child g g:nth-child(3) g:first-child rect
+{
+    display: none;
+}

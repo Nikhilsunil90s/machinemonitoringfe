@@ -1,0 +1,33 @@
+export const PUBLIC_ROUTE = {
+  LANDING: "/",
+  HOME: "/home",
+  PRODUCT: "/product",
+  SOLUTION: "/solution",
+  COMPANY: "/company",
+  CONTACT: "/contact",
+  SIGN_IN: "/signin",
+  SIGN_UP: "/signup",
+  FORGOT_PASSWORD: "/forgotpassword",
+  VERIFY_CODE: "/verfication",
+  RESET_PASSWORD: "/resetpassword",
+  PAGE_404: "/404",
+  PAGE_500: "/500",
+};
+
+export const PRIVATE_ROUTE = {
+  DASHBOARD: "/",
+  USERS: "/users",
+  ADDEDIT_USER: ["/users/new", "/users/:id"],
+  CUSTOMERS: "/customers",
+  // ADDEDIT_CUSTOMER: ["/customers/new", "/customers/:id"],
+  MACHINES: "/machines",
+  ADDEDIT_MACHINE: ["/machines/new", "/machines/:id"],
+  CONNECTTOPIC_MACHINE: "/connecttopicmachine/:id",
+  MESSAGES: "/messages",
+  ADDEDIT_MESSAGE: ["/messages/new", "/messages/:id"],
+  BROKERS: "/brokers",
+  ADDEDIT_BROKER: ["/brokers/new", "/brokers/:id"],
+  TOPICS: "/topics",
+  ADDEDIT_TOPIC: ["/topics/new", "/topics/:id"],
+  TOPICDETAIL: "/topicdetail/:id",
+};

@@ -1,0 +1,90 @@
+[
+  [
+    {
+      "id": "00",
+      "message": "Main Gate open",
+      "rules": {}
+    },
+    {
+      "id": "01",
+      "message": "Loading door open",
+      "rules": {}
+    },
+    {
+      "id": "02",
+      "message": "Main panel E-Stop ",
+      "rules": {}
+    },
+    {
+      "id": "03",
+      "message": "Line E-Stop pressed",
+      "rules": {}
+    }
+  ],
+  [
+    {
+      "id": "00",
+      "message": "Line Pressure Low",
+      "rules": {}
+    },
+    {
+      "id": "01",
+      "message": "Overheat spindle",
+      "rules": {}
+    },
+    {
+      "id": "02",
+      "message": "X-Axis out of tolerance",
+      "rules": {}
+    },
+    {
+      "id": "03",
+      "message": "Y-Axis out of tolerance",
+      "rules": {}
+    }
+  ],
+  [
+    {
+      "id": "00",
+      "message": "Level oil tank meduim",
+      "rules": {}
+    },
+    {
+      "id": "01",
+      "message": "X-Axis travel time excessed",
+      "rules": {}
+    },
+    {
+      "id": "02",
+      "message": "Y-Axis travel time excessed",
+      "rules": {}
+    },
+    {
+      "id": "03",
+      "message": "Machine PM due in 25Hours",
+      "rules": {}
+    }
+  ],
+  [
+    {
+      "id": "00",
+      "message": "Main program paused",
+      "rules": {}
+    },
+    {
+      "id": "01",
+      "message": "User canceled routine 1",
+      "rules": {}
+    },
+    {
+      "id": "02",
+      "message": "Spindle warm up completed",
+      "rules": {}
+    },
+    {
+      "id": "03",
+      "message": "Machining complete",
+      "rules": {}
+    }
+  ]
+]
